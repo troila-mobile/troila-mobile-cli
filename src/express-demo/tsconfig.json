@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es6", "dom"
+    ],
+    "types": [
+      "reflect-metadata"
+    ],
+    "outDir": "./dist",
+    "sourceMap": true,
+    "module": "commonjs",
+    "watch": true,
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "./src/**/*",
+  ]
+}

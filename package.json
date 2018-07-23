@@ -1,0 +1,32 @@
+{
+  "name": "troila-mobile-cli",
+  "version": "1.0.0",
+  "description": "卓朗科技移动端构建工具",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troila-mobile/troila-mobile-cli.git"
+  },
+  "bin": {
+    "troila-mobile": "bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troila-mobile/troila-mobile-cli/issues"
+  },
+  "homepage": "https://github.com/troila-mobile/troila-mobile-cli#readme",
+  "dependencies": {
+    "colors": "^1.3.1",
+    "commander": "^2.16.0",
+    "inquirer": "^6.0.0",
+    "ncp": "^2.0.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2"
+  }
+}

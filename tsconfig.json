@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es2015"
+    ],
+    "outDir": "./bin",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "declaration": true,
+    "jsx": "react",
+    "watch": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "./lib/**/*",
+  ]
+}

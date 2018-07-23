@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "react",
+    "stage-2",
+    "es2015", [
+      "env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties"
+  ]
+}
